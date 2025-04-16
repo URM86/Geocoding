@@ -1,20 +1,20 @@
-# 📍 Google Sheets Geocoding em Lotes
+# 🌎 Google Sheets Geocoding em Lotes
 
 Este script para Google Sheets permite geocodificar grandes quantidades de endereços ou coordenadas (até milhares de linhas), superando as limitações de tempo de execução padrão do Google Apps Script através de um sistema de processamento em lotes inteligente.
 
-## 🌟 Características
+## Características
 
-- **Processamento em Lotes**: Divide grandes conjuntos de dados em lotes menores e gerenciáveis  
-- **Geocodificação Bidirecional**: Converte endereços em coordenadas (lat/lng) e vice-versa  
-- **Retomada Automática**: Continua de onde parou caso o processamento seja interrompido  
-- **Interface Amigável**: Menu integrado na planilha para fácil acesso  
-- **Feedback Visual**: Exibe o progresso em tempo real na planilha  
-- **Tratamento de Erros**: Identifica e registra problemas durante a geocodificação  
-- **Baixo Consumo de API**: Evita limites de taxa com pausas estratégicas  
+- **Processamento em Lotes**: Divide grandes conjuntos de dados em lotes menores e gerenciáveis
+- **Geocodificação Bidirecional**: Converte endereços em coordenadas (lat/long) e vice-versa
+- **Retomada Automática**: Continua de onde parou caso o processamento seja interrompido
+- **Interface Amigável**: Menu integrado no Google Sheets para fácil acesso
+- **Feedback Visual**: Exibe o progresso em tempo real na planilha
+- **Tratamento de Erros**: Identifica e registra problemas durante a geocodificação
+- **Baixo Consumo de API**: Evita limites de taxa com pausas estratégicas
 
-## ⚙️ Funcionamento
+## Funcionamento
 
-O script utiliza o serviço Maps do Google Apps Script para realizar geocodificações, mas supera as limitações padrão:
+O script utiliza o serviço _**Maps do Google Apps Script**_ para realizar geocodificações, mas supera as limitações padrão:
 
 | Problema Original              | Solução Implementada                                |
 |-------------------------------|------------------------------------------------------|
@@ -24,13 +24,13 @@ O script utiliza o serviço Maps do Google Apps Script para realizar geocodifica
 | Sem feedback de progresso      | Célula de status mostrando etapas do processamento  |
 | Reinício do zero em caso de erro | Sistema de retomada para continuar de onde parou  |
 
-## 🚀 Como Usar
+## Como Usar
 
 ### Instalação
 
 1. Abra sua planilha no Google Sheets  
 2. Vá para **Extensões > Apps Script**  
-3. Cole o código do arquivo [`geocoding_script.gs`](geocoding_script.gs) no editor  
+3. Cole o código do arquivo [`geocoding.gs`](geocoding.gs) no editor  
 4. Salve e volte para sua planilha  
 5. Atualize a página para visualizar o novo menu **Geocode**  
 
