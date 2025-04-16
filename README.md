@@ -71,3 +71,24 @@ Você pode personalizar os parâmetros de desempenho no início do script:
 const BATCH_SIZE = 50;              // Número de linhas por lote
 const PAUSE_BETWEEN_BATCH = 1000;   // Pausa entre lotes (em milissegundos)
 const PAUSE_BETWEEN_REQUESTS = 200; // Pausa entre cada requisição (em milissegundos)
+```
+
+## 📋 Códigos de Erro Comuns
+
+- `ZERO_RESULTS`: Endereço não encontrado  
+- `OVER_QUERY_LIMIT`: Muitas requisições em pouco tempo  
+- `REQUEST_DENIED`: Falha na autenticação da API  
+- `INVALID_REQUEST`: Parâmetros inválidos ou incompletos  
+
+## 🙏 Agradecimentos
+
+Este projeto é uma extensão do trabalho original de:
+
+- [Max Vilimpoc](https://github.com/nuket/google-sheets-geocoding-macro)  
+- [Will Geary](https://willgeary.github.io/data/2016/11/04/Geocoding-with-Google-Sheets.html)
+
+## 📺 Tutorial em Vídeo
+
+Para um guia prático em português sobre como utilizar este script no Google Sheets, assista ao seguinte vídeo:
+
+- [Tutorial em Português no YouTube](https://www.youtube.com/watch?v=y-OrP8AOxTc)
